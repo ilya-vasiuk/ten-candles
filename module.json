@@ -1,15 +1,20 @@
 {
-  "name": "ten-candles",
+  "id": "ten-candles",
   "title": "Ten Candles",
   "description": "This contains 1 scene and 3 macros to help a GM run a game of Ten Candles. Information about the system can be found here: https://cavalrygames.com/ten-candles",
-  "version": "1.0.1",
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "9",
-  "author": "pints1ze",
+  "version": "1.0.2",
+  "compatibility": {
+    "minimum": 12,
+    "verified": "12.327"
+  },
   "authors": [
     {
       "name": "pints1ze",
       "discord": "pints1ze#8400"
+    },
+    {
+      "name": "ilyavasiuk",
+      "discord": "ilyavasiuk"
     }
   ],
   "packs": [
@@ -38,9 +43,14 @@
   "esmodules": [
     "./scripts/init.js"
   ],
-  "dependencies": [],
-  "url": "",
+  "media": [
+    {
+      "type": "background",
+      "url": "images/ten-candles.jpg",
+      "thumbnail": "images/ten-candles.jpg"
+    }
+  ],
+  "readme": "README.md",
   "manifest": "https://raw.githubusercontent.com/pints1ze/ten-candles/main/module.json",
-  "download": "https://github.com/pints1ze/ten-candles/releases/latest/download/ten-candles.zip",
-  "manifestPlusVersion": "1.2.0"
+  "download": "https://github.com/pints1ze/ten-candles/releases/latest/download/ten-candles.zip"
 }
